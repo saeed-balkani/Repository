@@ -26,6 +26,7 @@ namespace RepositorySample.Models
                 db.Add(std);
             }
         }
+        //your data stored here
         public List<Student> GetStudent()
         {
             return db;
